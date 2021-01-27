@@ -1,0 +1,52 @@
+body {
+	color: #0000FF;
+	background-color: #EEEEEE;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+}
+.Name {
+	padding: 50px;
+	font-weight: bold;
+}
+ul {
+	list-style-type: circle;
+}
+ol {
+	list-style-type: lower-roman;
+}
+p {
+	text-align: left;
+	font-family: "Helvetica", "Arial", sans-serif;
+	padding: 20px 10px 20px 10px;
+}
+.projects {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+.link-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #dddddd;
+}
+.link-bar-li {
+	display: inline;
+}
+.bar-text {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+div {
+	color: #FFF;
+	background-color: #5995DA;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #5D6063;
+	border-radius: 5px;
+}
