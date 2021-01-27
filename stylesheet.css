@@ -12,7 +12,7 @@ p {
 	padding: 20px 10px 20px 10px;
 }
 .Name {
-	padding-bottom: 50px;
+	padding: 20px 0px 20px 0px;
 	font-weight: bold;
 	font-family: fantasy;
 }
@@ -35,5 +35,4 @@ p {
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
 }
