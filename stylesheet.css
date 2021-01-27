@@ -33,16 +33,17 @@ div {
 }
 .projects {
 	list-style-position: inside;
-	text-align: center;
+	list-style-type: decimal;
 }
 .link-bar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: #dddddd;
+	overflow: hidden;
+	background-color: #333;
 }
 .link-bar-li {
-	display: inline;
+	float: left;
 }
 .bar-text {
 	display: block;
