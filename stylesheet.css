@@ -24,8 +24,8 @@ p {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+	overflow: auto;
+	background-color: #EEEEEE;
 }
 .link-bar-li {
 	float: left;
