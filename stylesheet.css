@@ -12,9 +12,8 @@ p {
 	padding: 20px 10px 20px 10px;
 }
 .Name {
-	padding: 20px 0px 20px 0px;
+	text-align: center;
 	font-weight: bold;
-	font-family: fantasy;
 }
 .projects {
 	list-style-position: inside;
@@ -24,8 +23,7 @@ p {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: auto;
-	background-color: #EEEEEE;
+	overflow: hidden;
 }
 .link-bar-li {
 	float: left;
