@@ -1,43 +1,104 @@
-body {
-	color: white;
-	background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Helvetica", "Arial", sans-serif;
-	font-weight: normal;
+
+.menu-container {
+	display: flex;
+	justify-content: center;
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
 }
-p {
-	text-align: left;
-	font-family: "Helvetica", "Arial", sans-serif;
-	padding: 20px 10px 20px 10px;
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+	display: flex;
+	justify-content: space-between;
+
 }
-ul {
-	list-style-type: none;
+
+.signup {
+	margin-left: auto;
 }
-.Name {
-	text-align: center;
-	font-weight: bold;
+
+.login {
+  margin-left: 20px;
 }
-.projects {
-	list-style-position: inside;
-	list-style-type: decimal;
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
 }
-.link-bar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	list-style: none;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	border: 1px solid #e7e7e7;
-	background-color: darkgreen;
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+	align-items: stretch;
 }
-.bar-text {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 8px;
-	background-color: #dddddd;
+
+.social, .logo, .subscribe {
+	border: 1px solid #5995DA;
+}
+
+.social, .subscribe {
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.first-item {
+	order: 1;
+}
+
+.last-item {
+	order: -1;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-three {
+  flex: 2;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
 }
