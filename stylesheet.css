@@ -13,7 +13,6 @@
 }
 
 .menu {
-  border: 1px solid #fff;  /* For debugging */
   width: 900px;
 	display: flex;
 	justify-content: space-between;
@@ -41,10 +40,6 @@
   display: flex;
   justify-content: space-between;
 	align-items: stretch;
-}
-
-.social, .logo, .subscribe {
-	border: 1px solid #5995DA;
 }
 
 .social, .subscribe {
